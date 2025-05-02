@@ -1,0 +1,9 @@
+namespace com.example.notes;
+
+table Note {
+  id: int;
+  title: string;
+  content: string;
+}
+
+root_type Note;
