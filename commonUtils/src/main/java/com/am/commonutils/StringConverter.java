@@ -19,6 +19,16 @@ public class StringConverter {
         return result;
     }
 
+     public static String toUpperCaseWrittenByAhsan(String inputString) {
+        String result = "";
+        for (int i = 0; i < inputString.length(); i++) {
+            char currentChar = inputString.charAt(i);
+            char currentCharToUpperCase = Character.toUpperCase(currentChar);
+            result = new StringBuilder().append(result).append(currentCharToUpperCase).toString();
+        }
+        return result;
+    }
+
     /**
      * This method convert word into lowercase.
      *
